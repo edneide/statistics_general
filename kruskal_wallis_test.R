@@ -62,7 +62,7 @@ pairwise.wilcox.test(dat$flipper_length_mm, dat$species,
 # Here again, we conclude that all 3 species are significantly different 
 # in terms of flipper length (p-values < 0.001).
 
-# 6. Combination of statistical results and plot ----------------s
+# 6. Combination of statistical results and plot ----------------
 
 ggbetweenstats(
   data = dat,
